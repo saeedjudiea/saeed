@@ -1,0 +1,165 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind screens;
+
+:root {
+  --icon-chevron:  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%232e286b' strokeWidth='2'%3E%3Cpath strokeLinecap='round' strokeLinejoin='round' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E");
+}
+
+@font-face {
+  font-family: loewMedium;
+  src: url("./assets/LoewNextArabic/LoewNextArabicMedium.ttf");
+
+}
+
+@font-face {
+  font-family: loewMedium;
+  src: url("./assets/LoewNextArabic/LoewNextArabicMedium.ttf");
+
+}
+@font-face {
+  font-family: loewBold;
+  src: url("./assets/LoewNextArabic/LoewNextArabicBold.ttf");
+
+}
+@font-face {
+  font-family: loewExtraBold;
+  src: url("./assets/LoewNextArabic/LoewNextArabicExtraBold.ttf");
+
+}
+@font-face {
+  font-family: loewThin;
+  src: url("./assets/LoewNextArabic/LoewNextArabicThin.ttf");
+
+}
+@font-face {
+  font-family: loewHeavy;
+  src: url("./assets/LoewNextArabic/LoewNextArabicHeavy.ttf");
+
+}
+
+/* @font-face {
+    font-family: myFirstFont;
+    src: url('./assets/font/Tajawal/Tajawal-Bold.ttf');
+  } */
+
+  /* @font-face {
+    font-family: "Cairo";
+    src: url("./assets/font/Cairo/static/Cairo-Regular.ttf");
+  } */
+
+  body {
+    font-family:loewMedium;
+  }
+  #root {
+    /*set min height */
+    min-height: 100vh;
+  }
+  .expired-notice {
+    text-align: center;
+    padding: 2rem;
+    border: 1px solid #ebebeb;
+    border-radius: 0.25rem;
+    margin: 0.5rem;
+  }
+  
+  .expired-notice > span {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: red;
+  }
+  
+  .expired-notice > p {
+    font-size: 1.5rem;
+  }
+  
+  .show-counter {
+    padding: 0.5rem;
+  }
+  
+  .show-counter .countdown-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    padding: 0.5rem;
+    /* border: 1px solid #ebebeb;
+    border-radius: 0.25rem; */
+    text-decoration: none;
+    color: #ffff;
+  }
+  
+  .show-counter .countdown {
+    line-height: 1.25rem;
+    padding: 0 0.75rem 0 0.75rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .show-counter .countdown.danger {
+    color: #ff0000;
+  }
+  
+  .show-counter .countdown > p {
+    margin: 0;
+  }
+  
+  .show-counter .countdown > span {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+
+summary::-webkit-details-marker {
+    display: none;
+ }
+  summary::marker {
+    display: none;
+ }
+  summary::-moz-list-bullet {
+    list-style-type: none;
+ }
+
+details summary {
+  list-style-type: none;
+  cursor: pointer;
+  transition: color var(--transition);
+}
+details[open] summary {
+  margin-bottom: 0.5rem;
+}
+details summary::before {
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  float: left;
+  transform: rotate(90deg);
+  background-image: var(--icon-chevron);
+  background-position: left center;
+  background-size: 1.5rem auto;
+  background-repeat: no-repeat;
+  content: "";
+}
+
+details[open] summary::before {
+  transform: rotate(0deg);
+}
+
+.policy p {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.policy strong {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.bg-gradient {
+  background: linear-gradient(33deg, rgba(2,0,36,0) 0%, rgb(0 0 0 / 22%) 100%);
+}
