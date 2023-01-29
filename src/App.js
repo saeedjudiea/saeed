@@ -104,13 +104,13 @@ function App() {
 
 
 
-    <div className="relative bg-gray-50 px-6 pt-16 pb-20 lg:px-8 lg:pt-24 lg:pb-28">
+    <div className="relative bg-gray-50 px-6 pt-16 pb-20 lg:px-8 lg:pt-16 lg:pb-28">
       <div className="absolute inset-0">
         <div className=" max-h-screen bg-[#f9fafc] sm:h-2/3" />
       </div>
       <div className="relative mx-auto max-w-7xl">
         <div className="text-center">
-        <div className=" flex justify-center mb-4">
+        <div className=" flex justify-center mb-20">
       <svg
       className=' initial'
         width="150"
@@ -146,8 +146,19 @@ function App() {
       </div>
 
           {/* <h2 className="text-3xl font-bold tracking-tight text-[#455f70] sm:text-4xl">سعيد جديع ال جديع</h2> */}
-          <h2 className="text-3xl font-bold tracking-tight text-[#455f70] sm:text-4xl">Saeed Judia Al Judia</h2>
-          <p className="mx-auto mt-3 max-w-2xl text-gray-400 sm:mt-4">A self-motivated, hardworking, and ambitious individual with a great passion for technology. I have excellent communication skills, enabling me to communicate effectively with a wide range of people. I enjoy improving my skills and abilities in different areas, I am a fast Learner, and I have the ability to work under pressure.</p>
+          <h2 className="text-3xl font-bold tracking-tight text-[#455f70] sm:text-4xl mb-2">Saeed Judia Al Judia</h2>
+          {/* <span className="bg-blue-100 text-sm text-blue-800 mt-9 font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-2">A self-motivated, hardworking, and ambitious individual with a great passion for technology. I have excellent communication skills, enabling me to communicate effectively with a wide range of people. I enjoy improving my skills and abilities in different areas, I am a fast Learner, and I have the ability to work under pressure.</span> */}
+          
+
+
+<blockquote className="text-xl italic font-semibold text-gray-900 dark:text-white">
+    <svg aria-hidden="true" className="w-6 h-6 text-gray-600" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"/></svg>
+    <p className='text-gray-400 text-sm '>A self-motivated, hardworking, and ambitious individual with a great passion for technology. I have excellent communication skills, enabling me to communicate effectively with a wide range of people. I enjoy improving my skills and abilities in different areas, I am a fast Learner, and I have the ability to work under pressure.</p>
+</blockquote>
+
+
+
+          {/* <p className="mx-auto mt-3 max-w-2xl text-gray-400 sm:mt-4">A self-motivated, hardworking, and ambitious individual with a great passion for technology. I have excellent communication skills, enabling me to communicate effectively with a wide range of people. I enjoy improving my skills and abilities in different areas, I am a fast Learner, and I have the ability to work under pressure.</p> */}
           {/* <p className="mx-auto mt-3 max-w-2xl text-gray-400 sm:mt-4">مهتم في التقنية و البيانات - مطور مواقع ويب           </p> */}
 
 
