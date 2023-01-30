@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/saeed/static/css/main.0a030390.css",
-    "main.js": "/saeed/static/js/main.ffd90256.js",
+    "main.css": "/saeed/static/css/main.700539e9.css",
+    "main.js": "/saeed/static/js/main.9f987b7a.js",
     "static/js/787.d0bd3b2f.chunk.js": "/saeed/static/js/787.d0bd3b2f.chunk.js",
     "static/media/AqqarSass.png": "/saeed/static/media/AqqarSass.90aff10fc98ab644d9d9.png",
     "static/media/1000q.png": "/saeed/static/media/1000q.6b678e0f3884fb9e4e5b.png",
@@ -12,12 +12,12 @@
     "static/media/LoewNextArabicThin.ttf": "/saeed/static/media/LoewNextArabicThin.0df4ff1288b5b96f29f3.ttf",
     "static/media/rawaf.png": "/saeed/static/media/rawaf.43bb39515fa3ff6861de.png",
     "index.html": "/saeed/index.html",
-    "main.0a030390.css.map": "/saeed/static/css/main.0a030390.css.map",
-    "main.ffd90256.js.map": "/saeed/static/js/main.ffd90256.js.map",
+    "main.700539e9.css.map": "/saeed/static/css/main.700539e9.css.map",
+    "main.9f987b7a.js.map": "/saeed/static/js/main.9f987b7a.js.map",
     "787.d0bd3b2f.chunk.js.map": "/saeed/static/js/787.d0bd3b2f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a030390.css",
-    "static/js/main.ffd90256.js"
+    "static/css/main.700539e9.css",
+    "static/js/main.9f987b7a.js"
   ]
 }
