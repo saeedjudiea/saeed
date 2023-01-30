@@ -258,7 +258,7 @@ function App() {
               {posts.map((post) => (
                 <div
                   key={post.title}
-                  className="flex-none w-3/12 md:w-4/12 mr-8 md:pb-4 rounded-lg bg-[#516E82]"
+                  className="flex-none w-4/12 md:w-4/12 mr-8 md:pb-4 rounded-lg bg-[#516E82]"
                 >
                   <div className="  h-full grid ">
                     <div className="contents bg-white">
